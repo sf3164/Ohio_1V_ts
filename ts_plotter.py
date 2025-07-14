@@ -4,6 +4,19 @@ from tkinter import ttk, messagebox
 import plotly.graph_objects as go
 import plotly.express as px
 
+'''
+UDF Format
+("route starting point(rs)", "route ending point(re)", "run number", "sub run number", "sub run start time") --> "event" (TBD the event list stucture)
+"pos_x_av_m" --> "x_map_location"
+"pos_y_av_m" --> "y_map_location"
+"lane_id_av" --> "lane_id"
+"pos_x_av_f" --> "x_frenet"
+"pos_y_av_f" --> "y_frenet"
+"av_latitude" --> "vehicle_lat"
+"av_longitude" --> "vehicle_lon"
+"speed_av" --> "sped"
+"acc_av" --> "acceleration"
+'''
 # === Load dataset ===
 df = pd.read_csv("Updated_Ohio_One_Vehicle.csv")
 

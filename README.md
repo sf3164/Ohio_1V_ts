@@ -1,5 +1,4 @@
 
-
 # Time-Space Diagram Visualization Tool (for Ohio One Vehicle Data)
 
 This repository contains a Python-based GUI tool for visualizing time-space diagrams using processed vehicle trajectory data from the Ohio One Vehicle Data.  It allows users to filter vehicles based on run number, sub run number, sub run start time, lane, time window, or spatial range, and generates interactive Plotly-based plots that visualize vehicle movement over time and space.
